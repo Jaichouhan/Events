@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Djinj-Event</title>
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="./Assets/css/bootstrap.min.css" />
+    <!-- W3school icon link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="assets/css/perfect-scrollbar.css" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top_navbar">
+      <div class="container">
+        <div class="top_navbar_flex">
+          <div class="">
+            <a href=""><i class="fab fa-facebook-f top_navbar_flex_i"></i></a>
+            <a href=""><i class="fab fa-google-plus top_navbar_flex_i"></i></a>
+            <a href=""><i class="fab fa-twitter top_navbar_flex_i"></i></a>
+            <a href=""><i class="fab fa-linkedin top_navbar_flex_i"></i></a>
+          </div>
+          <div class="top_navbar_div">
+            <a href="./login.html">
+              <i class="fa fa-user top_navbar_div_i"></i> login or Register
+            </a>
+            <i class="fa fa-search top_navbar_div_i_border"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header start -->
+    <section class="eventview_section">
+      <div class="w-100">
+        <div class="feat-wrap2 w-100 position-relative">
+          <div class="navbar_sticky" id="navbaronevent">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <div class="container navbar-Sapce">
+                <a class="navbar-brand header_heading" href="index.html"
+                  >Djinj-Event</a
+                >
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav mb-2 mb-lg-0 Navbar_padding">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href=""
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./about.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./Allevent.html">All Events</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./contact.html"> Contact us</a>
+                    </li>
+
+                    <li>
+                      <button
+                        class="btn-style theme-btn-1 btn_hover_effect"
+                        type="button"
+                      >
+                        <a href="./login.html" class="eff-1"
+                          ><i class="fa fa-plus"></i> ADD LISTING</a
+                        >
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <!-- <div class="navbar_sticky">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <div class="container navbar-Sapce">
+                <a class="navbar-brand header_heading" href="index.html"
+                  >Djinj-Event</a
+                >
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav mb-2 mb-lg-0 Navbar_padding">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href=""
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./about.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./Allevent.html">All Events</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./contact.html"> Contact us</a>
+                    </li>
+
+                    <li>
+                      <button
+                        class="btn-style theme-btn-1 btn_hover_effect"
+                        type="button"
+                      >
+                        <a href="./login.html" class="eff-1"
+                          ><i class="fa fa-plus"></i> ADD LISTING</a
+                        >
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div> -->
+
+          <div class="feat-caro2">
+            <div class="feat-item">
+              <div
+                class="feat-img"
+                style="
+                  background-image: url(assets/images/resources/feat-img1.jpg);
+                "
+              ></div>
+            </div>
+            <div class="feat-item">
+              <div
+                class="feat-img"
+                style="
+                  background-image: url(assets/images/resources/feat-img2.jpg);
+                "
+              ></div>
+            </div>
+            <div class="feat-item">
+              <div
+                class="feat-img"
+                style="
+                  background-image: url(assets/images/resources/feat-img3.jpg);
+                "
+              ></div>
+            </div>
+            <div class="feat-item">
+              <div
+                class="feat-img"
+                style="
+                  background-image: url(assets/images/resources/feat-img4.jpg);
+                "
+              ></div>
+            </div>
+            <div class="feat-item">
+              <div
+                class="feat-img"
+                style="
+                  background-image: url(assets/images/resources/feat-img5.jpg);
+                "
+              ></div>
+            </div>
+            <div class="feat-item">
+              <div
+                class="feat-img"
+                style="
+                  background-image: url(assets/images/resources/feat-img6.jpg);
+                "
+              ></div>
+            </div>
+          </div>
+          <div class="feat-nav-caro">
+            <div class="feat-nav-item">
+              <img
+                class="img-fluid w-100"
+                src="assets/images/resources/feat-nav-img1.jpg"
+                alt="Featured Nav Image 1"
+              />
+            </div>
+            <div class="feat-nav-item">
+              <img
+                class="img-fluid w-100"
+                src="assets/images/resources/feat-nav-img2.jpg"
+                alt="Featured Nav Image 2"
+              />
+            </div>
+            <div class="feat-nav-item">
+              <img
+                class="img-fluid w-100"
+                src="assets/images/resources/feat-nav-img3.jpg"
+                alt="Featured Nav Image 3"
+              />
+            </div>
+            <div class="feat-nav-item">
+              <img
+                class="img-fluid w-100"
+                src="assets/images/resources/feat-nav-img4.jpg"
+                alt="Featured Nav Image 4"
+              />
+            </div>
+            <div class="feat-nav-item">
+              <img
+                class="img-fluid w-100"
+                src="assets/images/resources/feat-nav-img5.jpg"
+                alt="Featured Nav Image 5"
+              />
+            </div>
+            <div class="feat-nav-item">
+              <img
+                class="img-fluid w-100"
+                src="assets/images/resources/feat-nav-img6.jpg"
+                alt="Featured Nav Image 6"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Featured Wrap 2 -->
+      </div>
+    </section>
+
+    <div class="eventview_bg">
+      <div class="">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 eventview_bg_position">
+              <div class="eventview_bg_border">
+                <h2 class="eventview_bg_flex_h2">The Paradise Beach Hotel</h2>
+                <p class="eventview_bg_flex_p">
+                  02-05 July 2020 <span>California</span>
+                </p>
+                <div class="">
+                  <div class="eventview_bg_flex">
+                    <h6>LOCATION:</h6>
+                    <p>2495 Tident St, NY</p>
+                  </div>
+                  <div class="eventview_bg_flex">
+                    <h6>Review:</h6>
+                    <p>
+                      <i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i><span> 563 reviews</span>
+                    </p>
+                  </div>
+                  <div class="eventview_bg_flex">
+                    <h6>phone:</h6>
+                    <p>(+0064) 725 4143 68</p>
+                  </div>
+                  <div class="eventview_bg_flex">
+                    <h6>Website:</h6>
+                    <p>www.jthemes.com</p>
+                  </div>
+                </div>
+                <button class="eventview_bg_btn_share" type="button">
+                  share
+                </button>
+                <button class="eventview_bg_btn_book" type="button">
+                  book event
+                </button>
+              </div>
+              <div class="eventview_bg_border">
+                <h3 class="eventview_bg_about">about Event</h3>
+                <div class="eventview_bg_about_text">
+                  <p>
+                    <b>
+                      Quisque non dictum eros, Praesent porta vehicula arcu eu
+                      ornare</b
+                    >. Donec id egestas arcu. Suspendisse auctor ali condimentum
+                    ligula ultricies cursus. Vestibulum vel orci vel lacus
+                    rhoncus sagittis sed vitae mi. Pellentesque suil molestie
+                    elit bibendum tincidunt semper. Aliquam ac volutpat risus.
+                    In felis felis, posuere commodo aliquet amit eget, sagittis
+                    sed turpis. Phasellus commodo turpis non nunc egestas, et
+                    egestas felis pretium. Pellentesque suli dignissim libero
+                    vitae tincidunt semper. Nam id ante nisi. Nam sollicitudin,
+                    dolor non suscipit feugiat, nibh lacus commodo metus, nec
+                    tempus dui velit sagittis velit. Pellentesque elementum
+                    risus rhoncus justo porta, at varius odio consequat. Duis
+                    non augue adipiscing, posuere quam non, tempus urna.
+                  </p>
+                  <p>
+                    <b> Duis autem vel eum iriure dolor in hendrerit</b> in
+                    vulputate velit esse molestie consequat, vel illum dolore eu
+                    feugiat nulla facilisis at vero eros et accumsan et iusto
+                    odio dignissim qui blandit praesent luptatum zzril delenit
+                    augue duis dolore te feugait nulla facilisi. Nam liber
+                    tempor cum soluta nobis eleifend option congue nihil
+                    imperdiet doming id quod mazim placerat facer possim assum.
+                    Typi non habent. Duis autem vel eum iriure dolor in
+                    hendrerit in vulputate velit esse molestie consequat, vel
+                    illum dolore eu feugiat nulla facilisis at vero eros
+                  </p>
+                </div>
+              </div>
+              <div class="eventview_bg_border">
+                <h3 class="eventview_bg_about">Events</h3>
+                <div class="eventview_bg_event">
+                  <h6>Main</h6>
+                  <p>Games Night</p>
+                  <h5>Food/Dinning</h5>
+                  <h4>Chiled Vibe</h4>
+                </div>
+              </div>
+              <div class="eventview_bg_border">
+                <h3 class="eventview_bg_about">Video and images</h3>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="Section_five_Card_Margin">
+                      <img
+                        src="./images/14.jpg"
+                        alt="img"
+                        class="Section_five_Card_img"
+                      />
+                      <img
+                        src="./images/15.jpg"
+                        alt="img"
+                        class="Section_five_Card_img_s"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="Section_five_Card_Margin">
+                      <img
+                        src="./images/16.jpg"
+                        alt="img"
+                        class="Section_five_Card_img_t"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.755704954368!2d75.7296539149979!3d26.91124718312822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db3b4c3cfffff%3A0xc1a3a89b8a640bc9!2sEoxys%20IT%20solution%20LLP!5e0!3m2!1sen!2sin!4v1647316341558!5m2!1sen!2sin"
+                width="100%"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                class="eventview_bg_iframe"
+              ></iframe>
+              <div class="eventview_bg_iframe_bg">
+                <div class="eventview_bg_iframe_bg_flex">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p class="eventview_bg_iframe_bg_p">
+                    484 Ellis St, San Francisco, CA 94102, United States
+                  </p>
+                </div>
+                <div class="eventview_bg_iframe_bg_flex">
+                  <i class="fa-solid fa-phone"></i>
+                  <p class="eventview_bg_iframe_bg_p">+61 2 8236 9200</p>
+                </div>
+                <div class="eventview_bg_iframe_bg_flex">
+                  <i class="fa-solid fa-envelope"></i>
+                  <p class="eventview_bg_iframe_bg_p">youremail@mail.com</p>
+                </div>
+                <div class="eventview_bg_iframe_bg_flex">
+                  <i class="fa-brands fa-chrome"></i>
+                  <p class="eventview_bg_iframe_bg_p">www.website.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer start -->
+    <div class="footer_bg">
+      <div class="container">
+        <h2 class="footer_bg_h2">Djinj-Event</h2>
+        <ul class="footer_bg_ul">
+          <li><a href="./booking.html">Home</a></li>
+          <li><a href="./totalbill.html">About</a></li>
+          <li><a href="./paymentdone.html">All Events</a></li>
+          <!-- <li><a href="">Venue</a></li> -->
+          <li><a href="./myticket.html">Blog</a></li>
+          <li><a href="./Reseat.html">Contact Us</a></li>
+        </ul>
+
+        <div class="footer_bg_div">
+          <ul class="footer_bg_div_ul">
+            <li>
+              <a href=""><i class="fab fa-facebook-f Section_six_i"></i></a>
+            </li>
+            <li>
+              <a href=""
+                ><i class="fab fa-twitter Section_six_i" id="hover_effect"></i
+              ></a>
+            </li>
+            <li>
+              <a href=""
+                ><i
+                  class="fab fa-instagram Section_six_i"
+                  id="hover_effect1"
+                ></i
+              ></a>
+            </li>
+            <li>
+              <a href=""
+                ><i class="fab fa-linkedin Section_six_i" id="hover_effect2"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <p class="footer_bg_p">
+          2022 Copyright Djinj-Event.All Rights Reserved
+        </p>
+      </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/counterup.min.js"></script>
+    <script src="assets/js/scroll-up-bar.min.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="assets/js/perfect-scrollbar.min.js"></script>
+    <script src="assets/js/styleswitcher.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/custom-scripts.js"></script>
+    <!-- Footer end -->
+
+    <!-- bootstrap js cdn link -->
+    <script src="./Assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./index.js"></script>
+    <script>
+      //=== Featured Area Carousel 2 ===//
+      $(".feat-caro2").slick({
+        arrows: false,
+        initialSlide: 0,
+        infinite: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: true,
+        asNavFor: ".feat-nav-caro",
+        autoplay: false,
+        autoplaySpeed: 6000,
+        cssEase: "cubic-bezier(0.7, 0, 0.3, 1)",
+        speed: 1500,
+        draggable: true,
+        dots: false,
+        pauseOnDotsHover: true,
+        pauseOnFocus: false,
+        pauseOnHover: false,
+        prevArrow:
+          "<button type='button' class='slick-prev'><i class='fas fa-chevron-left'></i></button>",
+        nextArrow:
+          "<button type='button' class='slick-next'><i class='fas fa-chevron-right'></i></button>",
+      });
+
+      $(".feat-nav-caro").slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        asNavFor: ".feat-caro2",
+        dots: false,
+        arrows: true,
+        // slide: 'li',
+        centerPadding: "0",
+        centerMode: true,
+        focusOnSelect: true,
+        prevArrow:
+          "<button type='button' class='slick-prev'><i class='far fa-arrow-alt-circle-left'></i></button>",
+        nextArrow:
+          "<button type='button' class='slick-next'><i class='far fa-arrow-alt-circle-right'></i></button>",
+        responsive: [
+          {
+            breakpoint: 850,
+            settings: {
+              slidesToShow: 5,
+              slidesToScroll: 1,
+              infinite: false,
+              dots: false,
+              arrows: false,
+            },
+          },
+          {
+            breakpoint: 481,
+            settings: {
+              slidesToShow: 5,
+              slidesToScroll: 1,
+              infinite: false,
+              dots: false,
+              arrows: false,
+            },
+          },
+        ],
+      });
+    </script>
+  </body>
+</html>
